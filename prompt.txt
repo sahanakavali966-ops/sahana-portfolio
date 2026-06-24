@@ -1,0 +1,16 @@
+Here's a list of the prompts and responses from our conversation so far:
+
+**1. Prompt:** Asked to create a personal portfolio website with their details (name, education, skills — Python/C/frontend, mini projects with repo link space, soft skills, hobbies, blue/soft theme, email, project link) and asked how to push to GitHub.
+**Response:** Built a complete `index.html` portfolio with a soft blue theme, sections for About, Skills, Projects (including their Graphics Editor repo + placeholder slots), Soft Skills, Hobbies, and Contact. Also gave step-by-step git commands to create a repo and push it, plus GitHub Pages setup instructions.
+
+**2. Prompt:** Shared a screenshot of VS Code terminal showing `git init` and `git add index.html` already run, asked for the correct way to push to GitHub.
+**Response:** Gave the next commands to run (`commit`, `branch -M main`, `remote add origin`, `push -u origin main`) using the repo name `Portfolio-website`, plus GitHub Pages activation steps.
+
+**3. Prompt:** Shared a screenshot of the actual GitHub repo page showing it was named `sahana-portfolio` (not `Portfolio-website`), asked for the correct push.
+**Response:** Corrected the remote URL to match the actual repo name `sahana-portfolio` and gave the updated push commands.
+
+**4. Prompt:** Shared a terminal error — `remote origin already exists` and `repository not found` (since the old remote URL was still set to the wrong name).
+**Response:** Explained the fix using `git remote set-url origin ...` to update the existing remote instead of adding a duplicate, followed by `git push -u origin main`.
+
+**5. Prompt:** Asked what to put in the README file.
+**Response:** Provided a ready-to-use `README.md` template with project description, live site link, tech stack, and author/contact info, plus steps to add and push it.
