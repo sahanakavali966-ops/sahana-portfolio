@@ -7,3 +7,6 @@ Learning Python
 
 ## Interest
 Cloud computing
+
+## Goal
+Contribute to open source
