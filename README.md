@@ -10,3 +10,6 @@ Cloud computing
 
 ## Goal
 Contribute to open source
+
+## Projects
+A personal portfolio website I am building to showcase my work.
